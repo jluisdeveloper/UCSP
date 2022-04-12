@@ -1,0 +1,56 @@
+laxity:A1:10
+min: A1:10
+t=[0	] -> A1
+laxity:A1:10
+min: A1:10
+t=[5	] -> A1
+laxity: Vacio
+t=[10	] -> NONE
+laxity: Vacio
+t=[15	] -> NONE
+laxity:A2:30
+min: A2:30
+t=[20	] -> A2
+laxity:A1:10 A2:30
+min: A1:10
+t=[25	] -> A1
+laxity:A1:10 A2:25
+min: A1:10
+t=[30	] -> A1
+laxity:A2:20
+min: A2:20
+t=[35	] -> A2
+laxity: Vacio
+t=[40	] -> NONE
+laxity: Vacio
+t=[45	] -> NONE
+laxity:A1:10 B2:90 C2:85
+min: A1:10
+t=[50	] -> A1
+laxity:A1:10 B2:85 C2:80
+min: A1:10
+t=[55	] -> A1
+laxity:B2:80 C2:75
+min: C2:75
+t=[60	] -> C2
+laxity:A2:30 B2:75 C2:75
+min: A2:30
+t=[65	] -> A2
+laxity:A2:30 B2:70 C2:70
+min: A2:30
+t=[70	] -> A2
+laxity:A1:10 B2:65 C2:65
+min: A1:10
+t=[75	] -> A1
+laxity:A1:10 B2:60 C2:60
+min: A1:10
+t=[80	] -> A1
+laxity:B2:55 C2:55
+min: B2:55
+t=[85	] -> B2
+laxity:B2:55 C2:50
+min: C2:50
+t=[90	] -> C2
+laxity:B2:50 C2:50
+min: B2:50
+t=[95	] -> B2

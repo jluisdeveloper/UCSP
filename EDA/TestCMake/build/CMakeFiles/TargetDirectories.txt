@@ -1,0 +1,3 @@
+/home/danterius/UCSP/2021/Verano/EDA/TestCMake/build/CMakeFiles/rebuild_cache.dir
+/home/danterius/UCSP/2021/Verano/EDA/TestCMake/build/CMakeFiles/edit_cache.dir
+/home/danterius/UCSP/2021/Verano/EDA/TestCMake/build/CMakeFiles/TestCMake.dir

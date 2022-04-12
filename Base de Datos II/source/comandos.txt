@@ -1,0 +1,32 @@
+##################################################################################################
+Creando indices
+
+CREATE INDEX IDX_30000 ON Tb_estudiante_30000_idx (ID_est);
+CREATE INDEX IDX_80000 ON Tb_estudiante_80000_idx (ID_est);
+
+##################################################################################################
+Selecionando sin indices
+
+SELECT * FROM Tb_estudiante_30000 WHERE ID_est = 28999 ;  1
+SELECT * FROM Tb_estudiante_80000 WHERE ID_est = 28999 ;  2
+
+##################################################################################################
+Selecionando con indices
+
+SELECT * FROM Tb_estudiante_30000_idx WHERE id = 28999 IDX = IDX_30000.idx ;  1
+SELECT * FROM Tb_estudiante_80000_idx WHERE id = 28999 IDX = IDX_80000.idx ;  2
+
+##################################################################################################
+Insertando con indice
+
+INSERTAR CON INDICE EN Tb_estudiante_30000_idx VALORES 30001 jorge luis 24 INDICE IDX_30000.idx(ID_est) S(30001) ;
+INSERTAR CON INDICE EN Tb_estudiante_80000_idx VALORES 80001 jorge luis 24 INDICE IDX_80000.idx(ID_est) S(80001) ;
+
+##################################################################################################
+Eliminar con indice
+
+ELIMINAR CON INDICE EN Tb_estudiante_30000_idx WHERE nom = jorge INDICE IDX_30000.idx ;
+ELIMINAR CON INDICE EN Tb_estudiante_80000_idx WHERE nom = jorge INDICE IDX_80000.idx ;
+
+ELIMINAR CON INDICE EN Tb_estudiante_30000_idx WHERE ID_est = 30001 INDICE IDX_30000.idx ;
+ELIMINAR CON INDICE EN Tb_estudiante_80000_idx WHERE ID_est = 80001 INDICE IDX_80000.idx ;

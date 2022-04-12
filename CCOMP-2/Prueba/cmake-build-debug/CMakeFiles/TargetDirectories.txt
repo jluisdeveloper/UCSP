@@ -1,0 +1,3 @@
+/home/danterius/UCSP/2019-1/CCOMP2/Prueba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/danterius/UCSP/2019-1/CCOMP2/Prueba/cmake-build-debug/CMakeFiles/Prueba.dir
+/home/danterius/UCSP/2019-1/CCOMP2/Prueba/cmake-build-debug/CMakeFiles/edit_cache.dir

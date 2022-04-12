@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+
+
+\title{Análisis y diseño de algoritmos: Práctica 1 }
+\author{Jorge Luis Huanca Mamani: jorge.huanca@ucsp.edu.pe }
+\date{Octubre 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Problema 1}
+Utilizando las reglas de notación asintóticas, demuestre las expresiones son verdaderas o falsas, justificando con la propia demostración matemática y también con un breve comentario en caso sea necesario. Asuma que toda función presentada es positiva.
+\\
+Descripción: \\
+    \begin{itemize}
+        \item
+            \begin{equation*}
+                max(f(n),g(n))&=& \Theta(f(n)+g(n)) \\
+            \end{equation*}
+            Para \Theta(n) \\
+            \begin{equation*}
+                C1(f(n)+g(n))& \leq &max(f(n),g(n))& \leq C2(f(n)+g(n))\\
+            \end{equation*}
+
+            Solo basta con mirar el max donde se puede deducir que solo una funcion entrara a la desigualdad por lo que tiene sentido multiplicar por una fraccion la suma de funciones y que dicha fracion sea el valor concreto de C1.\\\\
+            Entonces tenemos que de la parte max ya sea
+            \begin{equation*}
+                f(n) o g(n)
+            \end{equation*}
+            entrara a la desigualdad, entonces si tenemos una parte y esta es la mas grande al dividirlo entre dos ambas partes tenemos como resultado que dicha suma jamas sera mayor o igual a la parte grande por que el termino "max" pierde sentido, por lo tanto la primera constante
+            \begin{equation}
+                 C1 = 1/2 \\
+            \end{equation}
+            Para la siguiente parte
+            \begin{equation*}
+                \[max(f(n),g(n))& \leq C2(f(n)+g(n))\] \\
+            \end{equation*}
+            deducimos que \\
+            \begin{equation*}
+                \[C2 = 1\] \\
+            \end{equation*}
+            dado que al desarrollar la ecuacion tendremos que 1 es \leq f(n) \\
+
+
+        \item Edad del Cobre
+        \item Edad del Bronce
+        \item Edad del Hierro
+    \end{itemize}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.7]{universe}
+\caption{The Universe}
+\label{fig:universe}
+\end{figure}
+
+\section{Conclusion}
+``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

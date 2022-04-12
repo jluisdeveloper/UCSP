@@ -1,0 +1,244 @@
+// colores
+$verde:#00d6a3;
+$azul:#033b4a;
+
+// estilos generales
+body{
+    font-family: 'Saira', sans-serif !important;
+}
+.verde{
+    color: #00d6a3;
+}
+.azul-b{
+    background-color: $azul;
+}
+.blanco{
+    color: white;
+}
+.texto-slider2{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    h5{
+        font-size: 75px;
+        line-height: 80px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0px;
+        font-family: Saira;
+        visibility: inherit;
+        transition: none 0s ease 0s;
+        text-align: inherit;
+        border-width: 0px;
+        margin: 0px;
+        padding: 0px;
+        min-height: 0px;
+        min-width: 0px;
+        max-height: none;
+        max-width: none;
+        opacity: 1;
+        transform-origin: 50% 50% 0px;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    p{
+        color: $verde;
+        font-size: 25px;
+
+    }
+}
+.texto-slider{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    h5{
+        font-size: 75px;
+        line-height: 80px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0px;
+        font-family: Saira;
+        visibility: inherit;
+        transition: none 0s ease 0s;
+        text-align: inherit;
+        border-width: 0px;
+        margin: 0px;
+        padding: 0px;
+        min-height: 0px;
+        min-width: 0px;
+        max-height: none;
+        max-width: none;
+        opacity: 1;
+        transform-origin: 50% 50% 0px;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    p{
+        color: $verde;
+        font-size: 25px;
+
+    }
+}
+.texto-izquierda{
+    h5{
+        color: #9dabaf;
+    }
+    h2{
+        color: $azul;
+        font-weight: bold;
+    }
+    p{
+        color: #9dabaf;
+    }
+    h3{
+        color: $azul;
+        font-weight: bold;
+    }
+    ul{
+        color: #9dabaf;
+    }
+}
+.servicios{
+    h2{
+        font-weight: bold;
+        color: $azul;
+        
+    }
+    h3{
+        color: $azul;
+        font-weight: bold;
+    }
+    p{
+        padding-bottom: 25px;
+        color: #9dabaf;
+    }
+    h5{
+        color: #9dabaf;
+    }
+}
+.medicos{
+    h5{
+        color: #9dabaf;
+    }
+    h1{
+        font-weight: bold;
+    }
+    p{
+        color: #9dabaf;
+    }
+}
+i{
+    color: #00d6a3 ;
+}
+.padding-left-10{
+    padding-left: 10px;
+}
+.padding-left-20{
+    padding-left: 20px !important;
+}
+.padding-left-30{
+    padding-left: 30px !important;
+}
+.padding-top-15{
+    padding-top: 150px;
+}
+.padding-bottom-1{
+    padding-bottom: 100px;
+}
+.paddin-center{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.prefooter{
+    background-color: #00d6a3;
+}
+.tel1{
+    background-color: white;
+    padding: 15px;
+}
+.cont-tel{
+    color: white;
+
+}
+.margin-top-2{
+    margin-top: 200px;
+}
+.margin-left-10{
+    margin-left: 10px;
+}
+.margin-left-20{
+    margin-left: 20px;
+}
+
+.margin-center-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.margin-top-15{
+    margin-top: 150px !important;
+}
+.centrar-vertical{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button-verde{
+    display: inline-block;
+    background-color: #00d6a3;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 35px;
+    
+}
+.form-ico{
+    position: absolute;
+}
+.cita{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.list-none{
+    li{
+        list-style: none;
+    }
+}
+.card-title{
+    color: gray;
+}
+.card-text{
+    color: black;
+}
+// top header
+.top-bar{
+    background-color: $azul;
+    .container{
+        .top-bar-contenido{
+            .col-6{
+                ul{
+                    padding: 0;
+                    
+                    color: #fff;
+                    margin-bottom: 0;
+                        li{
+                           list-style: none;
+                           font-size: 12px;
+                        }                   
+                }
+            }
+        }
+    }
+}
+// menu
+.menu-principal{
+    font-size: 15px;
+    font-weight: 600;
+    color: $azul !important;
+    padding-left: 40px !important;
+    &:hover{
+        color: $verde !important;
+    }
+}
+.active{
+    font-size: 15px;
+    font-weight: 600;
+    color: $verde !important; 
+}

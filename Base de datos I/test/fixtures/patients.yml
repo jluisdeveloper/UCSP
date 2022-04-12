@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nro_register: MyString
+  full_name: MyString
+  phone: MyString
+  address: MyString
+  blood_type: MyString
+
+two:
+  nro_register: MyString
+  full_name: MyString
+  phone: MyString
+  address: MyString
+  blood_type: MyString

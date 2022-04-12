@@ -1,0 +1,2 @@
+module Panel::ConsultationsHelper
+end
